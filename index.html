@@ -1,0 +1,35 @@
+<!TYPEDOC html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <script src="js/vue.js"></script>
+        <script src="js/observer.js"></script>
+        <script src="js/compile.js"></script>
+        <script src="js/dep.js"></script>
+        <script src="js/watcher.js"></script>
+    </head>
+
+    <body>
+        <div id="app">
+            <div>标题：{{title}}</div>
+            <div>标题：{{name}}</div>
+            <button v-on:click="test">按钮</button>
+        </div>
+
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                title: 'angualrJs',
+                name: 'aaaa'
+            },
+            methods: {
+                test() {
+                    this.title = '修改下文字';
+                }
+            }
+        });
+    </script>
+    </body>
+</html>
