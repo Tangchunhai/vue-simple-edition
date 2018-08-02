@@ -9,9 +9,9 @@
 <img src="https://cn.vuejs.org/images/data.png">
 
 ## 设计模块
-1、模板编译模块(Compile)：此模块主要负责表达式、指令编译。
+1、模板编译(Compile)：此模块主要负责表达式、指令编译。
 
-2、监听者模块(Observer)：此模块主要给data数据添加getter和setter，并且把data里的数据添加到观察者列表，当数据其中一个有变化时通知观察者列表更新。
+2、监听者(Observer)：此模块主要给data数据添加getter和setter，并且把data里的数据添加到观察者列表，当数据其中一个有变化时通知观察者列表更新。
 
 3、观察者列表(Dep)：此模块主要负责管理观察者列表，当getter触发时添加观察者到列表，当setter触发时通知所有观察者更新数据。
 
