@@ -18,4 +18,4 @@
 4、观察者(Watcher)：此模块主要负责数据观察，一旦数据有变化通知更新视图。
 
 ## 总结
-代码的实现借鉴了官方和一些前人分析的思路。在学习过程中，学到了很多平常不常用的一些API，理解了一些底层、设计模式的知识。<a href="https://github.com/Tanghailun/VueSimpleEdition.git">源码下载地址</a>
+代码的实现借鉴了官方和一些前人分析的思路。在学习过程中，学到了很多平常不常用的一些API，理解了一些底层、设计模式的知识。<a href="https://github.com/Tanghailun/VueSimpleEdition">源码下载地址</a>
